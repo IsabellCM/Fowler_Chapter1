@@ -28,7 +28,7 @@ assertSame(movie,testObject.getMovie());
 
     @org.junit.Test
     public void amountFor() throws Exception {
-assertEquals(PRICE,testObject.amountFor(),0.0);
+assertEquals(PRICE,testObject.getCharge(),0.0);
     }
 
 }
